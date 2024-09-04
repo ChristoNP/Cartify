@@ -1,53 +1,58 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15623341&assignment_repo_type=AssignmentRepo)
-# My eCommerce App
+# Cartify - Online Shopping Platform
 
-## Tujuan Pembelajaran
+## Overview
 
-- Student mampu membuat aplikasi server dengan menggunakan menggunakan Typescript, NEXT.js dan melakukan proses CRUD dengan database MongoDB
-- Student mampu membuat web aplikasi dengan menggunakan framework NEXT.js
-- Student mampu menghandle navigasi pada NEXT.js
-- Student mampu menghandle authentikasi pada NEXT.js
-- Student mampu mengimplementasikan CSR & SSR pada NEXT.js
+**Cartify** is an online shopping platform built using **TypeScript**, **Next.js**, and **MongoDB**. The platform is designed to provide users with a seamless and intuitive shopping experience. It includes essential eCommerce functionalities such as user authentication, product browsing, wishlist management, and more.
 
-## Aturan Umum
+## Learning Objectives
 
-Challenge Hacktiv8 bersifat latihan WAJIB yang menjunjung tinggi INTEGRITAS. Segala bentuk ketidakjujuran meliputi peniruan, plagiarisme, pemalsuan pengerjaan akan mendapatkan tindakan tegas dari akademik.
+- Build a server-side application using **TypeScript**, **Next.js**, and **MongoDB** for CRUD operations.
+- Develop a web application with **Next.js** and manage navigation effectively.
+- Handle authentication mechanisms in **Next.js**.
+- Implement Client-Side Rendering (CSR) and Server-Side Rendering (SSR) in **Next.js**.
 
-Untuk melatih best practice di lapangan kerja, student diharuskan untuk melakukan git commit minimal 1 hari 4 kali dengan message yang deskriptif atau commit message yang sesuai
+## Features
 
-## Ringkasan
+### User Authentication
 
-My eCommerce App adalah sebuah web aplikasi yang dibangun menguunakan Typescript , framework NEXT.js dan database MongoDB, jadi kerjakan dengan baik sebagai bekal portofolio kamu.
+- **Register**: Allows new users to create an account.
+- **Login**: Allows existing users to log in to their accounts.
 
-Pada challenge ini, kamu diminta untuk membuat aplikasi client-server dengan detail sebagai berikut:
+### Home Page
 
-### Halaman
+- **Banner Promo**: Displays a promotional banner.
+- **Detail Info**: Provides detailed information about Cartify.
+- **Featured Products**: Showcases featured products with a "see-all" option.
 
-- [X] Halaman Register
-- [X] Halaman Login
-- [X] Halaman Home
-  - [X] Banner Promo
-  - [X] Detail info Ecommerce
-  - [X] Featured Product (5-10 product) + “see-all”
-- [X] Halaman Product
-- [X] List Product
-  - [X] Fitur Search
-  - [X] Fitur Pagination (menggunakan infinite scroll)
-  - [X] Fitur Add to wishlist
-- [X] Halaman Detail Product
-  - [X] Fitur Add to wishlist
-  - [X] Implementasi Meta Tag di Head sesuai detail product
-- [X] Halaman Wishlist Product
-  - [X] List Wishlist
-  - [X] Fitur Remove Wishlist
+### Product List Page
 
-### Fitur
+- **List Products**: Displays a list of available products.
+- **Search Feature**: Allows users to search for products by name, implementing a debounce feature for optimized searching.
+- **Infinite Scroll Pagination**: Loads products dynamically as users scroll down the page.
+- **Add to Wishlist**: Users can add products to their wishlist directly from the product list.
 
-- [X] Fitur register
-- [X] Fitur login
-- [X] Fitur show list product
-- [X] Fitur show detail product
-- [X] Fitur add to wishlist
-- [X] Fitur remove wishlist
-- [X] Fitur search product berdasarkan nama (implement menerapkan debounce)
-- [X] Fitur pagination (implement infinite scroll)
+### Product Detail Page
+
+- **Detail View**: Shows detailed information for a selected product.
+- **Add to Wishlist**: Users can add the product to their wishlist from the detail view.
+- **Meta Tags**: Dynamically implements meta tags in the head section for SEO purposes, based on product details.
+
+### Wishlist Management
+
+- **View Wishlist**: Displays all products added to the user's wishlist.
+- **Remove from Wishlist**: Allows users to remove items from their wishlist.
+
+## Key Functionalities
+
+- **User Registration and Login**: Secure user authentication using **Next.js**.
+- **Product Listing**: View and search for products with a debounce feature to optimize performance.
+- **Infinite Scrolling**: Enhances user experience by loading products dynamically as the user scrolls.
+- **Product Details**: Provides detailed information on each product and allows users to add products to the wishlist.
+- **Wishlist Management**: Users can easily manage their wishlists, adding or removing products.
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript
+- **Backend**: Node.js, MongoDB
+- **Styling**: CSS, Tailwind CSS
+- **Authentication**: JSON Web Tokens (JWT), cookies
